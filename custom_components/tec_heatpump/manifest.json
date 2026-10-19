@@ -1,0 +1,12 @@
+{
+  "domain": "tec_heatpump",
+  "name": "TEC Heat Pump (local Tuya)",
+  "codeowners": ["@smitb"],
+  "config_flow": true,
+  "documentation": "https://github.com/smitb/tec-heatpump",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/smitb/tec-heatpump/issues",
+  "requirements": ["tinytuya>=1.16.1"],
+  "version": "0.1.0"
+}

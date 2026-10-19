@@ -1,0 +1,109 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "TEC heat pump (local Tuya)",
+        "data": {
+          "host": "IP address",
+          "device_id": "Tuya device ID",
+          "local_key": "Local key",
+          "protocol_version": "Protocol version"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not read status from the heat pump. Check IP, device ID, local key and version."
+    },
+    "abort": {
+      "already_configured": "This heat pump is already configured."
+    }
+  },
+  "entity": {
+    "number": {
+      "heating_base_setpoint": {
+        "name": "Heating curve base temperature"
+      },
+      "dhw_setpoint": {
+        "name": "DHW setpoint"
+      }
+    },
+    "switch": {
+      "dhw": {
+        "name": "DHW"
+      },
+      "power": {
+        "name": "Power (manual mode)"
+      }
+    },
+    "sensor": {
+      "outlet_temp": {
+        "name": "Supply temperature"
+      },
+      "inlet_temp": {
+        "name": "Return temperature"
+      },
+      "ambient_temp": {
+        "name": "Outdoor temperature"
+      },
+      "dhw_tank_temp": {
+        "name": "DHW tank temperature"
+      },
+      "discharge_temp": {
+        "name": "Discharge temperature"
+      },
+      "suction_temp": {
+        "name": "Suction temperature"
+      },
+      "room_setpoint": {
+        "name": "Room setpoint"
+      },
+      "compressor_freq": {
+        "name": "Compressor frequency"
+      },
+      "low_pressure": {
+        "name": "Low pressure"
+      },
+      "flow": {
+        "name": "Flow"
+      },
+      "mode": {
+        "name": "Mode"
+      },
+      "fault": {
+        "name": "Fault"
+      },
+      "dp_15": {
+        "name": "DP 15"
+      },
+      "dp_39": {
+        "name": "DP 39"
+      },
+      "dp_102": {
+        "name": "DP 102"
+      },
+      "dp_104": {
+        "name": "DP 104"
+      },
+      "heat_output": {
+        "name": "Heat output"
+      }
+    },
+    "binary_sensor": {
+      "pump": {
+        "name": "Pump"
+      },
+      "electric_heater": {
+        "name": "Electric heater"
+      },
+      "gas_boiler": {
+        "name": "Gas boiler"
+      },
+      "dp_27": {
+        "name": "DP 27"
+      },
+      "dp_28": {
+        "name": "DP 28"
+      }
+    }
+  }
+}
