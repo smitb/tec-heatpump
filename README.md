@@ -1,6 +1,7 @@
 # TEC Heat Pump (local Tuya)
 
-A Home Assistant integration for TEC heat pumps, talking to the unit directly over the
+A Home Assistant integration for heat pumps from TEC (The Energy Combination,
+Oldenzaal, the Netherlands), talking to the unit directly over the
 local Tuya protocol (via [tinytuya](https://github.com/jasonacox/tinytuya)). No cloud
 polling: the unit pushes changes as they happen, and the integration keeps one
 persistent connection open.
@@ -8,7 +9,8 @@ persistent connection open.
 Tested on a **TEC RS07**. Other TEC models on the same Tuya module may work, but the
 datapoints could differ.
 
-> Not affiliated with TEC or Tuya. Writing settings to your heat pump is at your own risk.
+> This is an unofficial, community project. It is not affiliated with, endorsed by or
+> supported by The Energy Combination (TEC) or Tuya. Writing settings to your heat pump is at your own risk.
 
 ## Entities
 
